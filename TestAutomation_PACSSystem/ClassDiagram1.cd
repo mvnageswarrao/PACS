@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TestAutomation_PACSSystem.PACSTest.PACSSystemCheck">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAEEAAAEAIAAAIAAAAAAAAAAAMAAAAAAAAAABEAAAA=</HashCode>
+      <FileName>PACSTest\PACSSystemCheck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.browserAction_mapClasses.browserAction_map">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAABAAIACAAAAAAAAEQAAAIAAABAAE=</HashCode>
+      <FileName>UIMaps\LoginPage\browserAction_map.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.browserAction_mapClasses.browserAction_methodParams" Collapsed="true">
+    <Position X="17.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.browserAction_mapClasses.UINewtabInternetExplorWindow" Collapsed="true">
+    <Position X="21.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAABAAAAAAAAAAAAQAAAAAAAAABAAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.browserAction_mapClasses.UIItemWindow" Collapsed="true">
+    <Position X="16" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.browserAction_mapClasses.UIApplicationMenuBar" Collapsed="true">
+    <Position X="19.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.browserAction_mapClasses.UIItemWindow1" Collapsed="true">
+    <Position X="17.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.browserAction_mapClasses.UIContextMenu" Collapsed="true">
+    <Position X="23" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.browserAction_mapClasses.UIDeleteBrowsingHistorWindow" Collapsed="true">
+    <Position X="24.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.browserAction_mapClasses.UIDeleteWindow" Collapsed="true">
+    <Position X="26.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.mainMenuPage">
+    <Position X="5" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAEEAAAAAAAAAAAAAAAAAAAABBAAAAAAACAABAAAAA=</HashCode>
+      <FileName>UIMaps\LoginPage\mainMenuPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.mainPage">
+    <Position X="7.25" Y="1.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>ggAEUAAAAAAAAAQAAAAAAAAAEAAAARAAAEIAABAAAAg=</HashCode>
+      <FileName>UIMaps\LoginPage\mainPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.mainQuestionsPage">
+    <Position X="9.5" Y="1.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AEAEEgACoAAAABGAAQAAAQEAAEEBAAAAAEAAAhAAAAA=</HashCode>
+      <FileName>UIMaps\LoginPage\mainQuestionsPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.UIMap1" Collapsed="true">
+    <Position X="19.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>uE+wQIA7GPlPQAAAAAAAJT4gCMGEHQQQgSIAAEiAweg=</HashCode>
+      <FileName>UIMaps\LoginPage\UIMap1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.RecordedMethod1Params" Collapsed="true">
+    <Position X="16" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.RecordedMethod2Params" Collapsed="true">
+    <Position X="26.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.RecordedMethod3Params">
+    <Position X="14.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.RecordedMethod10Params" Collapsed="true">
+    <Position X="21.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.RecordedMethod13Params" Collapsed="true">
+    <Position X="23" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.RecordedMethod16Params" Collapsed="true">
+    <Position X="24.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.RecordedMethod17Params" Collapsed="true">
+    <Position X="26.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.AssertMethod1ExpectedValues" Collapsed="true">
+    <Position X="16" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.AssertMethod2ExpectedValues" Collapsed="true">
+    <Position X="17.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.AssertMethod3ExpectedValues" Collapsed="true">
+    <Position X="19.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.RecordedMethod19Params" Collapsed="true">
+    <Position X="14.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.RecordedMethod20Params" Collapsed="true">
+    <Position X="17.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.AssertMethod4ExpectedValues" Collapsed="true">
+    <Position X="21.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.AssertMethod5ExpectedValues" Collapsed="true">
+    <Position X="23" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.RecordedMethod22Params" Collapsed="true">
+    <Position X="19.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.RecordedMethod23Params" Collapsed="true">
+    <Position X="21.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.RecordedMethod24Params" Collapsed="true">
+    <Position X="23" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.RecordedMethod25Params" Collapsed="true">
+    <Position X="24.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.AssertMethod6ExpectedValues" Collapsed="true">
+    <Position X="24.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.AssertMethod7ExpectedValues" Collapsed="true">
+    <Position X="26.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.AssertMethod8ExpectedValues" Collapsed="true">
+    <Position X="14.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.AssertMethod9ExpectedValues" Collapsed="true">
+    <Position X="16" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.AssertMethod10ExpectedValues" Collapsed="true">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.UIHttp19216817pacssystWindow" Collapsed="true">
+    <Position X="24.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAABBAABAAAACAAAAAAAAAAAAABEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.UIAddressBarWindow" Collapsed="true">
+    <Position X="17.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.UIItemWindow" Collapsed="true">
+    <Position X="14.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.UIAddressBarClient" Collapsed="true">
+    <Position X="16" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.UIPACSVillaPlusDocument" Collapsed="true">
+    <Position X="23" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIMAIAEAEBlASJYAAgQEEAAAgBMAICAATkSCIIABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.UIBookingNamesContainePane" Collapsed="true">
+    <Position X="21.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.UIDvQuestionContainerPane" Collapsed="true">
+    <Position X="14.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACABAAAAIAAIgAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.UIF390B8VillaCarabellaPane" Collapsed="true">
+    <Position X="21.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.UIF79F94VillaElenaSol2Pane" Collapsed="true">
+    <Position X="23" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.UIVillaHolidays2017ThaWindow" Collapsed="true">
+    <Position X="19.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.UIHttp19216817PACSVillWindow" Collapsed="true">
+    <Position X="26.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAABAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.UIPACSVillaPlusDocument1" Collapsed="true">
+    <Position X="24.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAABACIQEAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.UISTG1PACSVillaPlusIntWindow" Collapsed="true">
+    <Position X="14.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgIAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.UISTG1PACSVillaPlusDocument" Collapsed="true">
+    <Position X="26.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAEAAAAACAQAAQAAAABAAAIAAAAAAACAIAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.UIDvQuestionContainerPane1" Collapsed="true">
+    <Position X="16" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.UIDvQuestionContainerPane11" Collapsed="true">
+    <Position X="17.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.UISTG2PACSVillaPlusIntWindow" Collapsed="true">
+    <Position X="17.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgIAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.UISTG2PACSVillaPlusDocument" Collapsed="true">
+    <Position X="16" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAEAAAEAAAAAAAAAAQAAAAAAAAIAAAAAAACAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.UIMaps.LoginPage.UIMap1Classes.UIDvQuestionContainerPane2" Collapsed="true">
+    <Position X="19.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.Utilities.getFromDB" Collapsed="true">
+    <Position X="19.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilities\getFromDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestAutomation_PACSSystem.Utilities.logWriter" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilities\logWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

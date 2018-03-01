@@ -1,0 +1,2536 @@
+<?xml version="1.0"?>
+<UITest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="" Id="3efe829a-76df-439e-af0d-8d5c62727a1e" AssemblyVersion="10.0.21008.0" Version="1.0" xmlns="http://schemas.microsoft.com/VisualStudio/TeamTest/UITest/2010">
+  <Configuration>
+    <Group Name="IE">
+      <Setting Name="Version" Value="9.11.10240.17071" WarningLevel="1" />
+      <Setting Name="InformationBar" WarningLevel="1" />
+      <Setting Name="AutoCompletePassword" WarningLevel="1" />
+      <Setting Name="AutoCompleteForm" WarningLevel="1" />
+      <Setting Name="DefaultBrowser" Value="IEXPLORE.EXE" WarningLevel="1" />
+      <Setting Name="PopupBlocker" Value="yes" WarningLevel="1" />
+      <Setting Name="TabbedBrowsing" WarningLevel="2" />
+      <Setting Name="InternetZoneSecurity" Value="66816" WarningLevel="2" />
+      <Setting Name="IntranetZoneSecurity" Value="69632" WarningLevel="2" />
+      <Setting Name="TrustedZoneSecurity" Value="70912" WarningLevel="2" />
+      <Setting Name="RestrictedZoneSecurity" Value="73728" WarningLevel="2" />
+      <Setting Name="PhishingFilter" WarningLevel="1" />
+      <Setting Name="EnhancedSecurityConfiguration" WarningLevel="1" />
+    </Group>
+    <Group Name="OS">
+      <Setting Name="Name" Value="Microsoft Windows 10 Enterprise" WarningLevel="2" />
+      <Setting Name="Version" Value="Microsoft Windows NT 6.3.9600.0" WarningLevel="2" />
+      <Setting Name="IsUserAdmin" Value="False" WarningLevel="2" />
+      <Setting Name="Is64BitOperatingSystem" Value="True" WarningLevel="2" />
+      <Setting Name="IsTerminalServerSession" Value="False" WarningLevel="2" />
+      <Setting Name="OSLanguage" Value="1033" WarningLevel="1" />
+      <Setting Name="UserLocale" Value="1033" WarningLevel="1" />
+      <Setting Name="DragFullWindows" Value="True" WarningLevel="2" />
+      <Setting Name="ScreenResolutionWidth" Value="1280" WarningLevel="2" />
+      <Setting Name="ScreenResolutionHeight" Value="1024" WarningLevel="2" />
+      <Setting Name="SystemDPIX" Value="96" WarningLevel="2" />
+      <Setting Name="SystemDPIY" Value="96" WarningLevel="2" />
+      <Setting Name="Aero" Value="1" WarningLevel="1" />
+      <Setting Name="UACEnabled" Value="1" WarningLevel="2" />
+      <Setting Name="UACPromptEnabled" Value="5" WarningLevel="1" />
+    </Group>
+    <Group Name="TechnologyManagers">
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="UIA" WarningLevel="1" />
+    </Group>
+  </Configuration>
+  <InitializeActions />
+  <ExecuteActions>
+    <LaunchApplicationAction>
+      <ParameterName />
+      <FileName>C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdgeCP.exe</FileName>
+      <AlternateFileName>%windir%\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdgeCP.exe</AlternateFileName>
+      <Arguments>SCODEF:8528 CREDAT:271655 EDGEHOST  /prefetch:6</Arguments>
+    </LaunchApplicationAction>
+    <ErrorAction>
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <Message>To test Windows Store apps, use the Coded UI Test project template for Windows Store apps under the Windows Store node.</Message>
+    </ErrorAction>
+    <ErrorAction>
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <Message>To test Windows Store apps, use the Coded UI Test project template for Windows Store apps under the Windows Store node.</Message>
+    </ErrorAction>
+    <ErrorAction>
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <Message>To test Windows Store apps, use the Coded UI Test project template for Windows Store apps under the Windows Store node.</Message>
+    </ErrorAction>
+    <ErrorAction>
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <Message>To test Windows Store apps, use the Coded UI Test project template for Windows Store apps under the Windows Store node.</Message>
+    </ErrorAction>
+    <ErrorAction>
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <Message>To test Windows Store apps, use the Coded UI Test project template for Windows Store apps under the Windows Store node.</Message>
+    </ErrorAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod1">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIAddressBarWindow.UIAddressBarClient">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="229" Y="0" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIItemWindow.UIAddressBarClient.UIAddressEdit">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="226" Y="7" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <NavigateToUrlAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow">
+      <ParameterName />
+      <Url>http://192.168.1.7/pacssystem.html</Url>
+      <NewInstance>false</NewInstance>
+    </NavigateToUrlAction>
+    <MouseAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UISigninPane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="36" Y="14" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod2">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <NavigateToUrlAction UIObjectName="UIMap1.UIVillaHolidays2017ThaWindow">
+      <ParameterName />
+      <Url>https://www.villaplus.com/</Url>
+      <NewInstance>false</NewInstance>
+    </NavigateToUrlAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod3">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UISigninPane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="88" Y="22" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod4">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <ErrorAction>
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <Message>To test Windows Store apps, use the Coded UI Test project template for Windows Store apps under the Windows Store node.</Message>
+    </ErrorAction>
+    <ErrorAction>
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <Message>To test Windows Store apps, use the Coded UI Test project template for Windows Store apps under the Windows Store node.</Message>
+    </ErrorAction>
+    <ErrorAction>
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <Message>To test Windows Store apps, use the Coded UI Test project template for Windows Store apps under the Windows Store node.</Message>
+    </ErrorAction>
+    <ErrorAction>
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <Message>To test Windows Store apps, use the Coded UI Test project template for Windows Store apps under the Windows Store node.</Message>
+    </ErrorAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod5">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap1.UIHttp19216817PACSVillWindow.UIPACSVillaPlusDocument.UITxtUserNameEdit">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="142" Y="16" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod6">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <ErrorAction>
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <Message>To test Windows Store apps, use the Coded UI Test project template for Windows Store apps under the Windows Store node.</Message>
+    </ErrorAction>
+    <ErrorAction>
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <Message>To test Windows Store apps, use the Coded UI Test project template for Windows Store apps under the Windows Store node.</Message>
+    </ErrorAction>
+    <ErrorAction>
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <Message>To test Windows Store apps, use the Coded UI Test project template for Windows Store apps under the Windows Store node.</Message>
+    </ErrorAction>
+    <ErrorAction>
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <Message>To test Windows Store apps, use the Coded UI Test project template for Windows Store apps under the Windows Store node.</Message>
+    </ErrorAction>
+    <ErrorAction>
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <Message>To test Windows Store apps, use the Coded UI Test project template for Windows Store apps under the Windows Store node.</Message>
+    </ErrorAction>
+    <ErrorAction>
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <Message>To test Windows Store apps, use the Coded UI Test project template for Windows Store apps under the Windows Store node.</Message>
+    </ErrorAction>
+    <ErrorAction>
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <Message>To test Windows Store apps, use the Coded UI Test project template for Windows Store apps under the Windows Store node.</Message>
+    </ErrorAction>
+    <ErrorAction>
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <Message>To test Windows Store apps, use the Coded UI Test project template for Windows Store apps under the Windows Store node.</Message>
+    </ErrorAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod7">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <ErrorAction>
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <Message>To test Windows Store apps, use the Coded UI Test project template for Windows Store apps under the Windows Store node.</Message>
+    </ErrorAction>
+    <ErrorAction>
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <Message>To test Windows Store apps, use the Coded UI Test project template for Windows Store apps under the Windows Store node.</Message>
+    </ErrorAction>
+    <ErrorAction>
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <Message>To test Windows Store apps, use the Coded UI Test project template for Windows Store apps under the Windows Store node.</Message>
+    </ErrorAction>
+    <ErrorAction>
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <Message>To test Windows Store apps, use the Coded UI Test project template for Windows Store apps under the Windows Store node.</Message>
+    </ErrorAction>
+    <ErrorAction>
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <Message>To test Windows Store apps, use the Coded UI Test project template for Windows Store apps under the Windows Store node.</Message>
+    </ErrorAction>
+    <ErrorAction>
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <Message>To test Windows Store apps, use the Coded UI Test project template for Windows Store apps under the Windows Store node.</Message>
+    </ErrorAction>
+    <ErrorAction>
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <Message>To test Windows Store apps, use the Coded UI Test project template for Windows Store apps under the Windows Store node.</Message>
+    </ErrorAction>
+    <ErrorAction>
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <Message>To test Windows Store apps, use the Coded UI Test project template for Windows Store apps under the Windows Store node.</Message>
+    </ErrorAction>
+    <ErrorAction>
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <Message>To test Windows Store apps, use the Coded UI Test project template for Windows Store apps under the Windows Store node.</Message>
+    </ErrorAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod8">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <ErrorAction>
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <Message>To test Windows Store apps, use the Coded UI Test project template for Windows Store apps under the Windows Store node.</Message>
+    </ErrorAction>
+    <ErrorAction>
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <Message>To test Windows Store apps, use the Coded UI Test project template for Windows Store apps under the Windows Store node.</Message>
+    </ErrorAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod9">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <SetValueAction UIObjectName="UIMap1.UIHttp19216817PACSVillWindow.UIPACSVillaPlusDocument.UITxtPasswordEdit">
+      <ParameterName />
+      <Value Encoded="true">SfMI6drZbBj+8lDOXCOeg7RGHg/RDmWT</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod10">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <ErrorAction>
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <Message>To test Windows Store apps, use the Coded UI Test project template for Windows Store apps under the Windows Store node.</Message>
+    </ErrorAction>
+    <ErrorAction>
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <Message>To test Windows Store apps, use the Coded UI Test project template for Windows Store apps under the Windows Store node.</Message>
+    </ErrorAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod11">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UISigninPane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="77" Y="17" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod12">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <SetValueAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UITxtUserNameEdit">
+      <ParameterName />
+      <Value Encoded="false">punetest</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod13">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UISigninPane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="74" Y="22" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod14">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UIImgspacsIconpngImage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="64" Y="112" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod15">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <SetValueAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UITxtBookingRefEdit">
+      <ParameterName />
+      <Value Encoded="false">E</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod16">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <SetValueAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UITxtBookingRefEdit">
+      <ParameterName />
+      <Value Encoded="false">E</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <MouseAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UIBookingNamesContainePane.UIED8A4BVillaInmaCalerPane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="74" Y="13" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod17">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap1.UISTG1PACSVillaPlusIntWindow.UISTG1PACSVillaPlusDocument.UIDvQuestionContainerPane.UIYPane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="14" Y="14" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod18">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <StringAssertAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UIDvQuestionContainerPane.UIItem11VillaManualinpCustom">
+      <ParameterName />
+      <PropertyName>InnerText</PropertyName>
+      <ExpectedValue>1.1 Villa Manual in place, contact numbers included &amp; documents from previous clients removed?
+
+
+
+
+Y
+
+N
+
+NC</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Comparison>CurrentCulture</Comparison>
+      <PropertyCondition>Contains</PropertyCondition>
+    </StringAssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="AssertMethod1">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <StringAssertAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UIDvQuestionContainerPane.UIYNNCPane">
+      <ParameterName />
+      <PropertyName>InnerText</PropertyName>
+      <ExpectedValue>
+
+Y
+
+N
+
+NC</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Comparison>CurrentCulture</Comparison>
+      <PropertyCondition>Contains</PropertyCondition>
+    </StringAssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="AssertMethod2">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <StringAssertAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UIDvQuestionContainerPane.UIYNNCPane">
+      <ParameterName />
+      <PropertyName>InnerText</PropertyName>
+      <ExpectedValue>
+
+Y
+
+N
+
+NC</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Comparison>CurrentCulture</Comparison>
+      <PropertyCondition>Contains</PropertyCondition>
+    </StringAssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="AssertMethod3">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <DragDropAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UITxtNoteEdit">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <TargetElementName>UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UIDisablerPane</TargetElementName>
+      <MouseButton>Left</MouseButton>
+      <StartLocation X="84" Y="16" />
+      <StopLocation X="0" Y="411" />
+    </DragDropAction>
+    <SendKeysAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UITxtNoteEdit">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">testtest</Text>
+    </SendKeysAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod19">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <SetValueAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UITxtNoteEdit">
+      <ParameterName />
+      <Value Encoded="false">test</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod20">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UISaveNotePane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="82" Y="26" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod21">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <StringAssertAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UIDvQuestionContainerPane.UIItem71PoolReadingsCustom">
+      <ParameterName />
+      <PropertyName>FriendlyName</PropertyName>
+      <ExpectedValue>7.1 Pool Readings</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Comparison>CurrentCulture</Comparison>
+      <PropertyCondition>Contains</PropertyCondition>
+    </StringAssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="AssertMethod4">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMap1.UISTG1PACSVillaPlusIntWindow.UISTG1PACSVillaPlusDocument.UIDvQuestionContainerPane1.UIItem71PoolReadingsCustom">
+      <ParameterName />
+      <PropertyName>InnerText</PropertyName>
+      <ExpectedValue>7.1 Pool Readings</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="AssertMethod5">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <SetValueAction UIObjectName="UIMap1.UISTG2PACSVillaPlusIntWindow.UISTG2PACSVillaPlusDocument.UIDvQuestionContainerPane.UIItemEdit">
+      <ParameterName />
+      <Value Encoded="false">12</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod22">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <SetValueAction UIObjectName="UIMap1.UISTG1PACSVillaPlusIntWindow.UISTG1PACSVillaPlusDocument.UITxtCommentsEdit">
+      <ParameterName />
+      <Value Encoded="false">this is the test comments</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod23">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap1.UISTG1PACSVillaPlusIntWindow.UISTG1PACSVillaPlusDocument.UITxtCommentsEdit">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="748" Y="41" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SendKeysAction UIObjectName="UIMap1.UISTG1PACSVillaPlusIntWindow.UISTG1PACSVillaPlusDocument.UITxtCommentsEdit">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">;l;l;</Text>
+    </SendKeysAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod24">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <SetValueAction UIObjectName="UIMap1.UISTG2PACSVillaPlusIntWindow.UISTG2PACSVillaPlusDocument.UITxtCommentsEdit">
+      <ParameterName />
+      <Value Encoded="false">rtyr</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod25">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap1.UISTG1PACSVillaPlusIntWindow.UISTG1PACSVillaPlusDocument.UISavePane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="129" Y="24" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod26">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap1.UISTG1PACSVillaPlusIntWindow.UISTG1PACSVillaPlusDocument.UICompleteUploadPane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="147" Y="22" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod27">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap1.UISTG2PACSVillaPlusIntWindow.UISTG2PACSVillaPlusDocument.UIOKPane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="95" Y="20" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod28">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UITxtUserNameEdit1">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="62" Y="12" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod29">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UITxtUserNameEdit1">
+      <ParameterName />
+      <PropertyName>Enabled</PropertyName>
+      <ExpectedValue>False</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>Boolean</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="AssertMethod6">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap1.UIHttp19216817PACSVillWindow.UIPACSVillaPlusDocument.UITxtUserNameEdit1">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="111" Y="13" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod30">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <StringAssertAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UIF390B8VillaCarabellaPane.UIItemCustom">
+      <ParameterName />
+      <PropertyName>InnerText</PropertyName>
+      <ExpectedValue>
+
+  
+F390B8: Villa Carabella: 24-02-2017 </ExpectedValue>
+      <MessageOnValidationFailure />
+      <Comparison>CurrentCulture</Comparison>
+      <PropertyCondition>Contains</PropertyCondition>
+    </StringAssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="AssertMethod7">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <StringAssertAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UISavedPacs_F390B8_VilCustom">
+      <ParameterName />
+      <PropertyName>InnerText</PropertyName>
+      <ExpectedValue>F390B8: Villa Carabella: 24-02-2017 </ExpectedValue>
+      <MessageOnValidationFailure />
+      <Comparison>CurrentCulture</Comparison>
+      <PropertyCondition>Contains</PropertyCondition>
+    </StringAssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="AssertMethod8">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UISavedPacs_F390B8_VilCustom">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="81" Y="-8" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod31">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UIImgspacsIcon_smallpnImage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="35" Y="55" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod32">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UIImgspacsIcon_smallpnImage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="50" Y="45" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod33">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UIImgspacsIcon_smallpnImage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="56" Y="55" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod34">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UISavedPacs_F79F94_VilCustom">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="70" Y="-5" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod35">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <StringAssertAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UIImgspacsIcon_smallpnImage1">
+      <ParameterName />
+      <PropertyName>Id</PropertyName>
+      <ExpectedValue>savedPacs1_F79F94_Villa</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Comparison>CurrentCulture</Comparison>
+      <PropertyCondition>Contains</PropertyCondition>
+    </StringAssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="AssertMethod9">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <StringAssertAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UIF79F94VillaElenaSol2Pane.UIItemCustom">
+      <ParameterName />
+      <PropertyName>InnerText</PropertyName>
+      <ExpectedValue>
+
+  
+F79F94: Villa Elena Sol: 24-02-2017 </ExpectedValue>
+      <MessageOnValidationFailure />
+      <Comparison>CurrentCulture</Comparison>
+      <PropertyCondition>Contains</PropertyCondition>
+    </StringAssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="AssertMethod10">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UIImgspacsIcon_smallpnImage1">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="38" Y="64" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod36">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UISavedPacs_F79F94_VilCustom">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="73" Y="-7" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod37">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UISavePane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="136" Y="24" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod38">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UISavePane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="127" Y="26" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod39">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UICompleteUploadPane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="132" Y="23" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod40">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UIOKPane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="114" Y="28" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod41">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UISigninPane1">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="75" Y="20" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod42">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UISaveNotePane1">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="82" Y="27" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod43">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UIContinuePane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="95" Y="25" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod44">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UICompleteUploadPane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="150" Y="24" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UIDisablerPane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="652" Y="891" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod45">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap1.UIHttp19216817pacssystWindow.UIPACSVillaPlusDocument.UICompleteUploadPane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="159" Y="26" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RecordedMethod46">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <StringAssertAction UIObjectName="UIMap1.UIHttp19216817PACSVillWindow.UIPACSVillaPlusDocument.UISavePane">
+      <ParameterName />
+      <PropertyName>Id</PropertyName>
+      <ExpectedValue>cmdSave</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Comparison>CurrentCulture</Comparison>
+      <PropertyCondition>Contains</PropertyCondition>
+    </StringAssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="AssertMethod11">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <StringAssertAction UIObjectName="UIMap1.UIHttp19216817PACSVillWindow.UIPACSVillaPlusDocument.UISavePane">
+      <ParameterName />
+      <PropertyName>Id</PropertyName>
+      <ExpectedValue>cmdSave</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Comparison>CurrentCulture</Comparison>
+      <PropertyCondition>Contains</PropertyCondition>
+    </StringAssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="AssertMethod12">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <StringAssertAction UIObjectName="UIMap1.UIHttp19216817PACSVillWindow.UIPACSVillaPlusDocument.UICompleteUploadPane">
+      <ParameterName />
+      <PropertyName>Id</PropertyName>
+      <ExpectedValue>cmdCompleteUpload</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Comparison>CurrentCulture</Comparison>
+      <PropertyCondition>Contains</PropertyCondition>
+    </StringAssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="AssertMethod13">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+  </ExecuteActions>
+  <CleanupActions />
+  <OnErrorActions />
+  <Maps>
+    <UIMap Id="UIMap1">
+      <TopLevelWindows>
+        <TopLevelWindow ControlType="Window" Id="UIHttp19216817pacssystWindow" FriendlyName="http://192.168.1.7/pacssystem.html - Internet Expl..." SpecialControlType="BrowserWindow" SessionId="1771784">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>http://192.168.1.7/pacssystem.html</WindowTitle>
+            <WindowTitle>PACS | Villa Plus</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="Name">http://192.168.1.7/pacssystem.html</PropertyCondition>
+            <PropertyCondition Name="ClassName">IEFrame</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Window" Id="UIAddressBarWindow" FriendlyName="Address Bar" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>http://192.168.1.7/pacssystem.html</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ControlId">41477</PropertyCondition>
+                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Client" Id="UIAddressBarClient" FriendlyName="Address Bar" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>http://192.168.1.7/pacssystem.html</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="Name">Address Bar</PropertyCondition>
+                    <PropertyCondition Name="ControlType">Client</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Window" Id="UIItemWindow" FriendlyName="" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>http://192.168.1.7/pacssystem.html</WindowTitle>
+              </WindowTitles>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ClassName">AddressDisplay Control</PropertyCondition>
+                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Client" Id="UIAddressBarClient" FriendlyName="Address Bar" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>http://192.168.1.7/pacssystem.html</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="ControlType">Client</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Edit" Id="UIAddressEdit" FriendlyName="Address" SpecialControlType="None">
+                      <TechnologyName>MSAA</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>http://192.168.1.7/pacssystem.html</WindowTitle>
+                      </WindowTitles>
+                      <SearchConfigurations>
+                        <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                      </SearchConfigurations>
+                      <AndCondition Id="SearchCondition">
+                        <PropertyCondition Name="Name">Address</PropertyCondition>
+                        <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Document" Id="UIPACSVillaPlusDocument" FriendlyName="PACS | Villa Plus" SpecialControlType="None">
+              <TechnologyName>Web</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>PACS | Villa Plus</WindowTitle>
+              </WindowTitles>
+              <AndCondition Id="SearchCondition">
+                <AndCondition Id="Primary">
+                  <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                  <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                  <PropertyCondition Name="Id" />
+                  <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                  <PropertyCondition Name="FrameDocument">False</PropertyCondition>
+                </AndCondition>
+                <FilterCondition Id="Secondary">
+                  <PropertyCondition Name="Title">PACS | Villa Plus</PropertyCondition>
+                  <PropertyCondition Name="AbsolutePath">/pacssystem.html</PropertyCondition>
+                  <PropertyCondition Name="PageUrl">http://192.168.1.7/pacssystem.html</PropertyCondition>
+                </FilterCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Pane" Id="UISigninPane" FriendlyName="Sign in" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                      <PropertyCondition Name="Id">cmdLogin</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">Sign in</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">button bg-orange</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class="button bg-orange" id="cmdLogin"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">19</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Edit" Id="UITxtUserNameEdit" FriendlyName="txtUserName" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                      <PropertyCondition Name="Id">txtUserName</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="LabeledBy" />
+                      <PropertyCondition Name="Type">SINGLELINE</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">customTextBox watermark</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class="customTextBox watermark" id="txtU</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Image" Id="UIImgspacsIconpngImage" FriendlyName="/imgs/pacsIcon.png" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Image</PropertyCondition>
+                      <PropertyCondition Name="TagName">IMG</PropertyCondition>
+                      <PropertyCondition Name="Id">imgCreateNewPacs</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="Alt" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="AbsolutePath">/imgs/pacsIcon.png</PropertyCondition>
+                      <PropertyCondition Name="Src">http://192.168.1.7/imgs/pacsIcon.png</PropertyCondition>
+                      <PropertyCondition Name="Class" />
+                      <PropertyCondition Name="ControlDefinition">id="imgCreateNewPacs" style="margin-bott</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">5</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Edit" Id="UITxtBookingRefEdit" FriendlyName="txtBookingRef" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                      <PropertyCondition Name="Id">txtBookingRef</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="LabeledBy" />
+                      <PropertyCondition Name="Type">SINGLELINE</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">customTextBox</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class="customTextBox" id="txtBookingRef"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">13</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UIBookingNamesContainePane" FriendlyName="bookingNamesContainer" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                      <PropertyCondition Name="Id">bookingNamesContainer</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">ED3BE5, Villa Mirafondo, 26 Jan 2017, Mr</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class" />
+                      <PropertyCondition Name="ControlDefinition">id="bookingNamesContainer" style="left: 477.28px; top: 285.5px; width: 482.8px; display: block;"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">37</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Pane" Id="UIED8A4BVillaInmaCalerPane" FriendlyName="ED8A4B, Villa Inma Calero, 26 Jan 2017, " SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>PACS | Villa Plus</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                          <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="InnerText">ED8A4B, Villa Inma Calero, 26 Jan 2017, </PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Class">aBooking</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">class="aBooking" data-id="2697" data-reference="ED8A4B, Villa Inma Calero, 26 Jan 2017, Mrs Mary Watts" data-bookingref="ED8A4B" data-fullname="Villa Inma Calero"</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">40</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UIDvQuestionContainerPane" FriendlyName="dvQuestionContainer" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                      <PropertyCondition Name="Id">dvQuestionContainer</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">1 Safety
+
+1.1 Villa Manual in place, c</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">row</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class="row" id="dvQuestionContainer"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">103</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Custom" Id="UIItem11VillaManualinpCustom" FriendlyName="1.1 Villa Manual in place, contact numbe" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>PACS | Villa Plus</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Custom</PropertyCondition>
+                          <PropertyCondition Name="TagName">LI</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="Class" />
+                          <PropertyCondition Name="ControlDefinition">data-userresponse="" data-questionsetid=</PropertyCondition>
+                          <PropertyCondition Name="InnerText">1.1 Villa Manual in place, contact numbe</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Pane" Id="UIYNNCPane" FriendlyName="Y N NC" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>PACS | Villa Plus</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                          <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="InnerText">Y
+
+N
+
+NC</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Class">rightFloat</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">class="rightFloat"</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">105</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Custom" Id="UIItem71PoolReadingsCustom" FriendlyName="7.1 Pool Readings" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>PACS | Villa Plus</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Custom</PropertyCondition>
+                          <PropertyCondition Name="TagName">LI</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="Class" />
+                          <PropertyCondition Name="ControlDefinition">data-userresponse="" data-questionsetid=</PropertyCondition>
+                          <PropertyCondition Name="InnerText">7.1 Pool Readings</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">48</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Edit" Id="UITxtNoteEdit" FriendlyName="txtNote" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      <PropertyCondition Name="TagName">TEXTAREA</PropertyCondition>
+                      <PropertyCondition Name="Id">txtNote</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="LabeledBy" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class" />
+                      <PropertyCondition Name="ControlDefinition">id="txtNote" autofocus="autofocus" rows=</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UIDisablerPane" FriendlyName="disabler" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                      <PropertyCondition Name="Id">disabler</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText" />
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class" />
+                      <PropertyCondition Name="ControlDefinition">id="disabler" style="height: 4264px; display: block;"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UISaveNotePane" FriendlyName="Save Note" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                      <PropertyCondition Name="Id">cmdSaveNote</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">Save Note</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">button bg-green</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class="button bg-green" id="cmdSaveNote"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">70</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Edit" Id="UITxtUserNameEdit1" FriendlyName="txtUserName" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                      <PropertyCondition Name="Id">txtUserName</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="LabeledBy" />
+                      <PropertyCondition Name="Type">SINGLELINE</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">customTextBox watermark</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">disabled="disabled" class="customTextBox</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UIF390B8VillaCarabellaPane" FriendlyName="F390B8: Villa Carabella: 24-02-2017" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                      <PropertyCondition Name="Id">savedPacsList</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">F390B8: Villa Carabella: 24-02-2017 </PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">Border0</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class="Border0" id="savedPacsList"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">35</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Custom" Id="UIItemCustom" FriendlyName="" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>PACS | Villa Plus</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Custom</PropertyCondition>
+                          <PropertyCondition Name="TagName">UL</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="Class">savedPacs</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">class="savedPacs"</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">2</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Custom" Id="UISavedPacs_F390B8_VilCustom" FriendlyName="savedPacs_F390B8_Villa" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Custom</PropertyCondition>
+                      <PropertyCondition Name="TagName">A</PropertyCondition>
+                      <PropertyCondition Name="Id">savedPacs_F390B8_Villa</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Class" />
+                      <PropertyCondition Name="ControlDefinition">id="savedPacs_F390B8_Villa" onclick="$(t</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">3</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Image" Id="UIImgspacsIcon_smallpnImage" FriendlyName="/imgs/pacsIcon_small.png" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Image</PropertyCondition>
+                      <PropertyCondition Name="TagName">IMG</PropertyCondition>
+                      <PropertyCondition Name="Id">savedPacs1_F390B8_Villa</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="Alt" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="AbsolutePath">/imgs/pacsIcon_small.png</PropertyCondition>
+                      <PropertyCondition Name="Src">http://192.168.1.7/imgs/pacsIcon_small.png</PropertyCondition>
+                      <PropertyCondition Name="LinkAbsolutePath" />
+                      <PropertyCondition Name="Href" />
+                      <PropertyCondition Name="Class" />
+                      <PropertyCondition Name="ControlDefinition">id="savedPacs1_F390B8_Villa" style="curs</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">6</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Custom" Id="UISavedPacs_F79F94_VilCustom" FriendlyName="savedPacs_F79F94_Villa" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Custom</PropertyCondition>
+                      <PropertyCondition Name="TagName">A</PropertyCondition>
+                      <PropertyCondition Name="Id">savedPacs_F79F94_Villa</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Class" />
+                      <PropertyCondition Name="ControlDefinition">id="savedPacs_F79F94_Villa" onclick="$(t</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">3</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Image" Id="UIImgspacsIcon_smallpnImage1" FriendlyName="/imgs/pacsIcon_small.png" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Image</PropertyCondition>
+                      <PropertyCondition Name="TagName">IMG</PropertyCondition>
+                      <PropertyCondition Name="Id">savedPacs1_F79F94_Villa</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="Alt" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="AbsolutePath">/imgs/pacsIcon_small.png</PropertyCondition>
+                      <PropertyCondition Name="Src">http://192.168.1.7/imgs/pacsIcon_small.png</PropertyCondition>
+                      <PropertyCondition Name="LinkAbsolutePath" />
+                      <PropertyCondition Name="Href" />
+                      <PropertyCondition Name="Class" />
+                      <PropertyCondition Name="ControlDefinition">id="savedPacs1_F79F94_Villa" style="curs</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">6</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UIF79F94VillaElenaSol2Pane" FriendlyName="F79F94: Villa Elena Sol: 24-02-2017" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                      <PropertyCondition Name="Id">savedPacsList</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">F79F94: Villa Elena Sol: 24-02-2017 </PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">Border0</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class="Border0" id="savedPacsList"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">35</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Custom" Id="UIItemCustom" FriendlyName="" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>PACS | Villa Plus</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Custom</PropertyCondition>
+                          <PropertyCondition Name="TagName">UL</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="Class">savedPacs</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">class="savedPacs"</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">2</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UISavePane" FriendlyName="Save" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                      <PropertyCondition Name="Id">cmdSave</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">Save</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">bg-orange button</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class="bg-orange button" id="cmdSave"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">429</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UICompleteUploadPane" FriendlyName="Complete &amp; Upload" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                      <PropertyCondition Name="Id">cmdCompleteUpload</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">Complete &amp; Upload</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">bg-green button hidden</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class="bg-green button hidden" id="cmdCompleteUpload" style="display: block;"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">433</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UIOKPane" FriendlyName="OK" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                      <PropertyCondition Name="Id">cmdCustomMsgBoxOk</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">OK</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">button bg-green hidden</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class="button bg-green hidden" id="cmdCustomMsgBoxOk" style="display: block;"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">10</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UISigninPane1" FriendlyName="Sign in" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                      <PropertyCondition Name="Id">cmdLogin</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">Sign in</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">button bg-orange</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class="button bg-orange" id="cmdLogin"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">23</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UISaveNotePane1" FriendlyName="Save Note" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                      <PropertyCondition Name="Id">cmdSaveNote</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">Save Note</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">button bg-green</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class="button bg-green" id="cmdSaveNote"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">72</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UIContinuePane" FriendlyName="Continue" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                      <PropertyCondition Name="Id">cmdCustomMsgBoxContinue</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">Continue</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">align-left button bg-green hidden</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class="align-left button bg-green hidden" id="cmdCustomMsgBoxContinue" style="display: block;"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">12</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIVillaHolidays2017ThaWindow" FriendlyName="Villa Holidays 2017 That You'll Love More | Villa ..." SpecialControlType="BrowserWindow" SessionId="1771784">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Villa Holidays 2017 That You'll Love More | Villa Plus</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="Name">Villa Holidays 2017 That You'll Love More | Villa Plus</PropertyCondition>
+            <PropertyCondition Name="ClassName">IEFrame</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants />
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIHttp19216817PACSVillWindow" FriendlyName="http://192.168.1.7/ - PACS | Villa Plus - Internet..." SpecialControlType="BrowserWindow" SessionId="462080">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>http://192.168.1.7/ - PACS | Villa Plus</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="Name">http://192.168.1.7/ - PACS | Villa Plus</PropertyCondition>
+            <PropertyCondition Name="ClassName">IEFrame</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Document" Id="UIPACSVillaPlusDocument" FriendlyName="PACS | Villa Plus" SpecialControlType="None">
+              <TechnologyName>Web</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>http://192.168.1.7/ - PACS | Villa Plus</WindowTitle>
+              </WindowTitles>
+              <AndCondition Id="SearchCondition">
+                <AndCondition Id="Primary">
+                  <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                  <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                  <PropertyCondition Name="Id" />
+                  <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                  <PropertyCondition Name="FrameDocument">False</PropertyCondition>
+                </AndCondition>
+                <FilterCondition Id="Secondary">
+                  <PropertyCondition Name="Title">PACS | Villa Plus</PropertyCondition>
+                  <PropertyCondition Name="AbsolutePath">/pacssystem.html</PropertyCondition>
+                  <PropertyCondition Name="PageUrl">http://192.168.1.7/pacssystem.html</PropertyCondition>
+                </FilterCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Edit" Id="UITxtUserNameEdit" FriendlyName="txtUserName" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>http://192.168.1.7/ - PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                      <PropertyCondition Name="Id">txtUserName</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="LabeledBy" />
+                      <PropertyCondition Name="Type">SINGLELINE</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">customTextBox watermark</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class="customTextBox watermark" id="txtU</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Edit" Id="UITxtPasswordEdit" FriendlyName="txtPassword" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>http://192.168.1.7/ - PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                      <PropertyCondition Name="Id">txtPassword</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="LabeledBy" />
+                      <PropertyCondition Name="Type">PASSWORD</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">customTextBox watermark</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class="customTextBox watermark" id="txtP</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">2</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Edit" Id="UITxtUserNameEdit1" FriendlyName="txtUserName" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>http://192.168.1.7/ - PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                      <PropertyCondition Name="Id">txtUserName</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="LabeledBy" />
+                      <PropertyCondition Name="Type">SINGLELINE</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">customTextBox watermark</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">disabled="disabled" class="customTextBox</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UISavePane" FriendlyName="Save" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>http://192.168.1.7/ - PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                      <PropertyCondition Name="Id">cmdSave</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">Save</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">bg-orange button</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class="bg-orange button" id="cmdSave" style="display: block;"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">429</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UICompleteUploadPane" FriendlyName="Complete &amp; Upload" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>http://192.168.1.7/ - PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                      <PropertyCondition Name="Id">cmdCompleteUpload</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">Complete &amp; Upload</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">bg-green button hidden</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class="bg-green button hidden" id="cmdCompleteUpload" style="display: block;"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">433</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UISTG1PACSVillaPlusIntWindow" FriendlyName="STG1 PACS | Villa Plus - Internet Explorer" SpecialControlType="BrowserWindow" SessionId="200734">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>STG1 PACS | Villa Plus</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="Name">STG1 PACS | Villa Plus</PropertyCondition>
+            <PropertyCondition Name="ClassName">IEFrame</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Document" Id="UISTG1PACSVillaPlusDocument" FriendlyName="STG1 PACS | Villa Plus" SpecialControlType="None">
+              <TechnologyName>Web</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>STG1 PACS | Villa Plus</WindowTitle>
+              </WindowTitles>
+              <AndCondition Id="SearchCondition">
+                <AndCondition Id="Primary">
+                  <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                  <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                  <PropertyCondition Name="Id" />
+                  <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                  <PropertyCondition Name="FrameDocument">False</PropertyCondition>
+                </AndCondition>
+                <FilterCondition Id="Secondary">
+                  <PropertyCondition Name="Title">STG1 PACS | Villa Plus</PropertyCondition>
+                  <PropertyCondition Name="AbsolutePath">/pacssystem.html</PropertyCondition>
+                  <PropertyCondition Name="PageUrl">http://stagingpacs.villaplus.com/pacssystem.html</PropertyCondition>
+                </FilterCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Pane" Id="UIDvQuestionContainerPane" FriendlyName="dvQuestionContainer" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>STG1 PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                      <PropertyCondition Name="Id">dvQuestionContainer</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">1 Safety
+
+1.1 Villa Manual in place, c</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">row</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class="row" id="dvQuestionContainer"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">103</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Pane" Id="UIYPane" FriendlyName="Y" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>STG1 PACS | Villa Plus</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                          <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="InnerText">Y</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Class">responseOption</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">class="responseOption" data-responselabel="Y"</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">108</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UIDvQuestionContainerPane1" FriendlyName="dvQuestionContainer" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>STG1 PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                      <PropertyCondition Name="Id">dvQuestionContainer</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">1 Safety
+
+1.1 Villa Manual in place, c</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">row</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class="row" id="dvQuestionContainer"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">92</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Custom" Id="UIItem71PoolReadingsCustom" FriendlyName="7.1 Pool Readings" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>STG1 PACS | Villa Plus</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Custom</PropertyCondition>
+                          <PropertyCondition Name="TagName">LI</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="Class" />
+                          <PropertyCondition Name="ControlDefinition">data-userresponse="" data-questionsetid=</PropertyCondition>
+                          <PropertyCondition Name="InnerText">7.1 Pool Readings</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">48</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Edit" Id="UITxtCommentsEdit" FriendlyName="txtComments" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>STG1 PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      <PropertyCondition Name="TagName">TEXTAREA</PropertyCondition>
+                      <PropertyCondition Name="Id">txtComments</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="LabeledBy" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class" />
+                      <PropertyCondition Name="ControlDefinition">id="txtComments" style="border-radius: 6</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">2</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UISavePane" FriendlyName="Save" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>STG1 PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                      <PropertyCondition Name="Id">cmdSave</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">Save</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">bg-orange button</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class="bg-orange button" id="cmdSave"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">441</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UICompleteUploadPane" FriendlyName="Complete &amp; Upload" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>STG1 PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                      <PropertyCondition Name="Id">cmdCompleteUpload</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">Complete &amp; Upload</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">bg-green button hidden</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class="bg-green button hidden" id="cmdCompleteUpload" style="display: block;"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">445</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UISTG2PACSVillaPlusIntWindow" FriendlyName="STG2 PACS | Villa Plus - Internet Explorer" SpecialControlType="BrowserWindow" SessionId="854164">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>STG2 PACS | Villa Plus</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="Name">STG2 PACS | Villa Plus</PropertyCondition>
+            <PropertyCondition Name="ClassName">IEFrame</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Document" Id="UISTG2PACSVillaPlusDocument" FriendlyName="STG2 PACS | Villa Plus" SpecialControlType="None">
+              <TechnologyName>Web</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>STG2 PACS | Villa Plus</WindowTitle>
+              </WindowTitles>
+              <AndCondition Id="SearchCondition">
+                <AndCondition Id="Primary">
+                  <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                  <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                  <PropertyCondition Name="Id" />
+                  <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                  <PropertyCondition Name="FrameDocument">False</PropertyCondition>
+                </AndCondition>
+                <FilterCondition Id="Secondary">
+                  <PropertyCondition Name="Title">STG2 PACS | Villa Plus</PropertyCondition>
+                  <PropertyCondition Name="AbsolutePath">/pacssystem.html</PropertyCondition>
+                  <PropertyCondition Name="PageUrl">http://stagingpacs.villaplus.com/pacssystem.html</PropertyCondition>
+                </FilterCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Pane" Id="UIDvQuestionContainerPane" FriendlyName="dvQuestionContainer" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>STG2 PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                      <PropertyCondition Name="Id">dvQuestionContainer</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">1 Safety
+
+1.1 Villa Manual in place, c</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">row</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class="row" id="dvQuestionContainer"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">104</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Edit" Id="UIItemEdit" FriendlyName="" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>STG2 PACS | Villa Plus</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                          <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="LabeledBy" />
+                          <PropertyCondition Name="Type">SINGLELINE</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Class">responseOptionText watermark poolReadings</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">class="responseOptionText watermark pool</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Edit" Id="UITxtCommentsEdit" FriendlyName="txtComments" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>STG2 PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      <PropertyCondition Name="TagName">TEXTAREA</PropertyCondition>
+                      <PropertyCondition Name="Id">txtComments</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="LabeledBy" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class" />
+                      <PropertyCondition Name="ControlDefinition">id="txtComments" style="border-radius: 6</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">2</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UIOKPane" FriendlyName="OK" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>STG2 PACS | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                      <PropertyCondition Name="Id">cmdCustomMsgBoxOk</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">OK</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">button bg-green hidden</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class="button bg-green hidden" id="cmdCustomMsgBoxOk" style="display: block;"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">10</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+      </TopLevelWindows>
+    </UIMap>
+  </Maps>
+  <ValueMap>
+    <ParameterList />
+  </ValueMap>
+</UITest>
